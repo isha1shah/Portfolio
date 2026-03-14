@@ -2,7 +2,8 @@
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/photo.jpg';
-  
+
+const resume = "/resume.pdf";
 
 const About = () => {
   return (
@@ -44,8 +45,9 @@ const About = () => {
             I’m a passionate Full-Stack Developer skilled in MERN Stack and Data Structures & Algorithms in Java. I focus on building scalable, user-friendly, and efficient applications across web platforms. With a strong foundation in problem-solving and modern development practices, I love turning ideas into functional, high-quality digital products that deliver great user experiences.
           </p>
           {/* Resume Button */}
+          {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1iBPBm43NtMrJCZwZsgHG9k80Gb-LIJg3/view?usp=sharing"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
