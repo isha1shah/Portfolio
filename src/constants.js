@@ -25,6 +25,7 @@ import Demo from './assets/work_logo/Demo.png';
 import Blog from './assets/work_logo/Blog.png';
 import streamflow from './assets/work_logo/streamflow.png';
 import cc from './assets/work_logo/cc.png';
+import imagify from './assets/work_logo/imagify.png';
 
 
 // Project Section Logo's
@@ -107,26 +108,6 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "PostHive- A Blogging Platform",
-      description:
-        "A full-stack blogging platform built with React.js and Node.js. It allows users to create, edit, and manage blog posts with features like user authentication, comments, and responsive design. The platform supports rich text editing and integrates seamlessly with a MongoDB database.",
-      image: Blog,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "MongoDB", "Appwrite"],
-      github: "https://github.com/isha1shah/megablog",
-      webapp: "https://megablog-kpl4.onrender.com",
-    },
-    {
-      id: 1,
-      title: "StreamFlow- A Video Streaming Platform",
-      description:
-        "A full-stack video streaming platform built with React.js and Node.js. It allows users to browse, watch, and manage video content with features like user authentication, comments, and responsive design. The platform supports video playback and integrates seamlessly with a MongoDB database.",
-      image: streamflow,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/isha1shah/StreamFlow",
-      webapp: "https://streamflow-frontend-6w4d.onrender.com",
-    },
-    {
-      id: 2,
       title: "Resume Builder Web App  ",
       description:
         "A React-based web application that allows users to create, customize, and download professional resumes. The app provides a variety of templates and design options to help users build visually appealing and well-structured resumes.",
@@ -136,7 +117,47 @@ export const SkillsInfo = [
       webapp: "https://resume-builder-client-5ucg.onrender.com",
     },
     {
+  id: 1,
+  title: "Text-Imagify AI SaaS App",
+  description:
+    "A full-stack AI-powered SaaS web application that generates high-quality images from text prompts using the ClipDrop AI API. The platform includes secure JWT authentication, a credit-based usage system, Razorpay payment integration, and a modern responsive UI for seamless user experience.",
+  image: imagify,
+  tags: [
+    "React JS",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "ClipDrop API",
+    "Razorpay",
+    "Axios",
+  ],
+  github: "https://github.com/isha1shah/text-imagify",
+  webapp: "https://text-imagify-1.onrender.com/",
+},
+    {
+      id: 2,
+      title: "PostHive- A Blogging Platform",
+      description:
+        "A full-stack blogging platform built with React.js and Node.js. It allows users to create, edit, and manage blog posts with features like user authentication, comments, and responsive design. The platform supports rich text editing and integrates seamlessly with a MongoDB database.",
+      image: Blog,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "MongoDB", "Appwrite"],
+      github: "https://github.com/isha1shah/megablog",
+      webapp: "https://megablog-kpl4.onrender.com",
+    },
+    {
       id: 3,
+      title: "StreamFlow- A Video Streaming Platform",
+      description:
+        "A full-stack video streaming platform built with React.js and Node.js. It allows users to browse, watch, and manage video content with features like user authentication, comments, and responsive design. The platform supports video playback and integrates seamlessly with a MongoDB database.",
+      image: streamflow,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/isha1shah/StreamFlow",
+      webapp: "https://streamflow-frontend-6w4d.onrender.com",
+    },
+    {
+      id: 4,
       title: "Currency Converter App",
       description:
         "A React.js-based web application that allows users to convert currencies in real-time. The app supports multiple currencies and provides a clean, responsive interface for seamless user experience.",
