@@ -3,7 +3,6 @@ import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/photo.jpg';
 
-const resume = "/resume.pdf";
 
 const About = () => {
   return (
@@ -47,7 +46,7 @@ const About = () => {
           {/* Resume Button */}
           {/* Resume Button */}
           <a
-            href={resume}
+            href="https://drive.google.com/file/d/1K074yfP2Zu6bQ_53YNSZxJxyPKTdq-GE/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
